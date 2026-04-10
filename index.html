@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ClipScale | Scale Your Content & Growth</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        body { font-family: 'Inter', sans-serif; background-color: #0a0a0a; color: #ffffff; }
+        .glass { background: rgba(255, 255, 255, 0.03); backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.05); }
+        .gradient-text { background: linear-gradient(90deg, #fff 0%, #a5a5a5 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .hero-glow { position: absolute; top: -10%; left: 50%; transform: translateX(-50%); width: 600px; height: 400px; background: radial-gradient(circle, rgba(59, 130, 246, 0.15) 0%, rgba(0,0,0,0) 70%); z-index: -1; }
+    </style>
+</head>
+<body class="antialiased">
+
+    <!-- Navigation -->
+    <nav class="fixed w-full z-50 py-6 px-6 lg:px-12 flex justify-between items-center glass border-b border-white/5">
+        <div class="text-2xl font-extrabold tracking-tighter">CLIP<span class="text-blue-500">SCALE</span></div>
+        <div class="hidden md:flex gap-8 text-sm font-medium text-gray-400">
+            <a href="#services" class="hover:text-white transition">Services</a>
+            <a href="#portfolio" class="hover:text-white transition">Portfolio</a>
+            <a href="#process" class="hover:text-white transition">How it Works</a>
+        </div>
+        <a href="#contact" class="bg-white text-black px-5 py-2.5 rounded-full text-sm font-bold hover:bg-blue-500 hover:text-white transition-all">Book a Call</a>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="relative pt-40 pb-20 px-6 overflow-hidden">
+        <div class="hero-glow"></div>
+        <div class="max-w-4xl mx-auto text-center">
+            <span class="inline-block py-1 px-3 rounded-full bg-blue-500/10 border border-blue-500/20 text-blue-400 text-xs font-bold mb-6 tracking-widest uppercase">Content Scaling Agency</span>
+            <h1 class="text-5xl md:text-7xl font-extrabold mb-6 tracking-tight leading-tight gradient-text">
+                Turn Your Content <br> Into Growth
+            </h1>
+            <p class="text-gray-400 text-lg md:text-xl mb-10 max-w-2xl mx-auto leading-relaxed">
+                We help creators scale faster, reach new platforms, and generate more revenue with high-performing video edits.
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="#contact" class="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-xl font-bold text-lg shadow-lg shadow-blue-500/20 transition-all">Get Started Today</a>
+                <a href="#portfolio" class="bg-white/5 hover:bg-white/10 border border-white/10 px-8 py-4 rounded-xl font-bold text-lg transition-all">View Our Work</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Social Proof -->
+    <section class="py-12 border-y border-white/5 bg-white/[0.01]">
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+                <div>
+                    <div class="text-3xl font-bold">4000+</div>
+                    <div class="text-gray-500 text-sm">Videos Edited</div>
+                </div>
+                <div>
+                    <div class="text-3xl font-bold">2B+</div>
+                    <div class="text-gray-500 text-sm">Views Generated</div>
+                </div>
+                <div>
+                    <div class="text-3xl font-bold">150+</div>
+                    <div class="text-gray-500 text-sm">Creators Scaled</div>
+                </div>
+                <div>
+                    <div class="text-3xl font-bold">24h</div>
+                    <div class="text-gray-500 text-sm">Avg. Turnaround</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services -->
+    <section id="services" class="py-24 px-6">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-3xl md:text-5xl font-bold mb-16 text-center">Engineered for Engagement</h2>
+            <div class="grid md:grid-cols-3 gap-6">
+                <!-- Service 1 -->
+                <div class="glass p-8 rounded-3xl group hover:border-blue-500/50 transition-all">
+                    <div class="bg-blue-500/10 w-12 h-12 rounded-lg flex items-center justify-center mb-6 text-blue-500">
+                        <i data-lucide="youtube"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4">YouTube Mastery</h3>
+                    <p class="text-gray-400 text-sm leading-relaxed">High-retention long-form editing focused on CTR and average view duration.</p>
+                </div>
+                <!-- Service 2 -->
+                <div class="glass p-8 rounded-3xl group hover:border-blue-500/50 transition-all">
+                    <div class="bg-blue-500/10 w-12 h-12 rounded-lg flex items-center justify-center mb-6 text-blue-500">
+                        <i data-lucide="zap"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4">Short-Form Blitz</h3>
+                    <p class="text-gray-400 text-sm leading-relaxed">Viral-style TikToks, Reels, and Shorts designed to dominate the algorithm.</p>
+                </div>
+                <!-- Service 3 -->
+                <div class="glass p-8 rounded-3xl group hover:border-blue-500/50 transition-all">
+                    <div class="bg-blue-500/10 w-12 h-12 rounded-lg flex items-center justify-center mb-6 text-blue-500">
+                        <i data-lucide="layers"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4">Content Repurposing</h3>
+                    <p class="text-gray-400 text-sm leading-relaxed">We turn 1 long-form video into 10+ high-impact clips for all platforms.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works -->
+    <section id="process" class="py-24 px-6 bg-white/[0.01]">
+        <div class="max-w-5xl mx-auto">
+            <h2 class="text-3xl md:text-5xl font-bold mb-16 text-center">Your Growth Engine</h2>
+            <div class="space-y-12">
+                <div class="flex flex-col md:flex-row gap-8 items-center">
+                    <div class="text-6xl font-black text-white/10 italic">01</div>
+                    <div>
+                        <h4 class="text-2xl font-bold mb-2">Upload Your Raw Content</h4>
+                        <p class="text-gray-400">Drop your raw footage into our secure portal. No more messy Google Drive links.</p>
+                    </div>
+                </div>
+                <div class="flex flex-col md:flex-row gap-8 items-center">
+                    <div class="text-6xl font-black text-white/10 italic">02</div>
+                    <div>
+                        <h4 class="text-2xl font-bold mb-2">Magic Happens</h4>
+                        <p class="text-gray-400">Our expert editors apply high-retention cuts, motion graphics, and captions optimized for growth.</p>
+                    </div>
+                </div>
+                <div class="flex flex-col md:flex-row gap-8 items-center">
+                    <div class="text-6xl font-black text-white/10 italic">03</div>
+                    <div>
+                        <h4 class="text-2xl font-bold mb-2">Scale & Distribute</h4>
+                        <p class="text-gray-400">Receive your videos and watch your brand grow across 4+ platforms simultaneously.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio -->
+    <section id="portfolio" class="py-24 px-6">
+        <div class="max-w-6xl mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-12">The ClipScale Standard</h2>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+                <div class="aspect-[9/16] bg-white/5 rounded-2xl border border-white/10 overflow-hidden flex items-center justify-center group relative">
+                    <p class="text-xs text-gray-500 uppercase tracking-widest">Video Placeholder</p>
+                    <div class="absolute inset-0 bg-blue-500/20 opacity-0 group-hover:opacity-100 transition-opacity"></div>
+                </div>
+                <div class="aspect-[9/16] bg-white/5 rounded-2xl border border-white/10 overflow-hidden flex items-center justify-center group relative">
+                    <p class="text-xs text-gray-500 uppercase tracking-widest">Video Placeholder</p>
+                    <div class="absolute inset-0 bg-blue-500/20 opacity-0 group-hover:opacity-100 transition-opacity"></div>
+                </div>
+                <div class="aspect-[9/16] bg-white/5 rounded-2xl border border-white/10 overflow-hidden flex items-center justify-center group relative">
+                    <p class="text-xs text-gray-500 uppercase tracking-widest">Video Placeholder</p>
+                    <div class="absolute inset-0 bg-blue-500/20 opacity-0 group-hover:opacity-100 transition-opacity"></div>
+                </div>
+                <div class="aspect-[9/16] bg-white/5 rounded-2xl border border-white/10 overflow-hidden flex items-center justify-center group relative">
+                    <p class="text-xs text-gray-500 uppercase tracking-widest">Video Placeholder</p>
+                    <div class="absolute inset-0 bg-blue-500/20 opacity-0 group-hover:opacity-100 transition-opacity"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section id="contact" class="py-24 px-6">
+        <div class="max-w-4xl mx-auto glass p-12 rounded-[40px] text-center border-blue-500/20">
+            <h2 class="text-4xl md:text-5xl font-bold mb-6">Ready to Scale?</h2>
+            <p class="text-gray-400 mb-10 text-lg">Stop leaving views and revenue on the table. Let’s build your content empire.</p>
+            <button class="bg-blue-600 hover:bg-blue-700 text-white px-10 py-5 rounded-2xl font-bold text-xl transition-all shadow-xl shadow-blue-600/20">Book a Free Strategy Call</button>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-12 px-6 border-t border-white/5">
+        <div class="max-w-6xl mx-auto flex flex-col md:row justify-between items-center gap-8">
+            <div class="text-xl font-bold">CLIP<span class="text-blue-500">SCALE</span></div>
+            <div class="flex gap-6 text-gray-500 text-sm">
+                <a href="#" class="hover:text-white transition">Twitter</a>
+                <a href="#" class="hover:text-white transition">Instagram</a>
+                <a href="#" class="hover:text-white transition">LinkedIn</a>
+            </div>
+            <p class="text-gray-600 text-xs">© 2024 ClipScale. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>
